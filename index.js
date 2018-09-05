@@ -6,7 +6,6 @@ function distanceFromHqInBlocks(distance){
         let blocks = distance - 42;
     } else {
         let blocks = distance + 42;
-
     }
     return blocks;
 }
