@@ -22,7 +22,6 @@ function distanceTravelledInFeet(start, end){
         distanceTravelled = (end - start) * 264;
     } else {
         distanceTravelled = (start - end) * 264;
-
     }
      return distanceTravelled
 }
