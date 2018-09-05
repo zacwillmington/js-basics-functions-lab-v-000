@@ -16,6 +16,8 @@ function distanceFromHqInFeet(blockNumber){
     return distanceInFeet;
 }
 
-function distanceTravelledInFeet(feet){
-    
+function distanceTravelledInFeet(start, end){
+    let distanceTravelled;
+     distanceTravelled = start - end * 264;
+     return distanceTravelled
 }
