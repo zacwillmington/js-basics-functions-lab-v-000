@@ -32,4 +32,5 @@ function calculatesFarePrice(start, destination){
      if (distanceTraveled <= 2000 && distanceTraveled >= 400){
          price = distanceTraveled * 2;
      }
+     return price;
 }
