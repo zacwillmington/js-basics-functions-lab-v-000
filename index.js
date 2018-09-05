@@ -18,6 +18,11 @@ function distanceFromHqInFeet(blockNumber){
 
 function distanceTravelledInFeet(start, end){
     let distanceTravelled;
-     distanceTravelled = (end - start) * 264;
+    if (start > end){
+        distanceTravelled = (end - start) * 264;
+    } else {
+        distanceTravelled = (start - end) * 264;
+        
+    }
      return distanceTravelled
 }
